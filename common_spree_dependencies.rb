@@ -33,6 +33,7 @@ group :test do
   gem 'webmock', '~> 3.7'
   gem 'timecop'
   gem 'rails-controller-testing'
+  gem 'aws-sdk-s3'
 end
 
 group :test, :development do
