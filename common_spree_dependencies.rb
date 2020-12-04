@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 gem 'sass-rails'
 gem 'sqlite3', '~> 1.4.0', platforms: [:ruby, :mingw, :mswin, :x64_mingw]
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'aws-sdk-s3'
 
 platforms :jruby do
   gem 'jruby-openssl'
@@ -33,7 +34,6 @@ group :test do
   gem 'webmock', '~> 3.7'
   gem 'timecop'
   gem 'rails-controller-testing'
-  gem 'aws-sdk-s3'
 end
 
 group :test, :development do
